@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box {
+    flex: 1;                
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: flex 0.6s ease;
+}
+
+
+.box:hover {
+    flex: 4;
+}
+
+
+.box1 {
+    background-image: url("https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg");
+}
+
+
+
+
+.box5 {
+    background-image: url("https://images.pexels.com/photos/461415/pexels-photo-461415.jpeg");
+}
+.box4 {
+    background-image: url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg");
+}
+.box2 {
+    background-image: url("https://images.pexels.com/photos/34950/pexels-photo.jpg");
+}
+.box3 {
+    background-image: url("https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg");
+}
