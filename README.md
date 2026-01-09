@@ -1,19 +1,20 @@
-# 🌐 HTML & CSS Practice Project
+# 🌐 HTML, CSS & SCSS Practice Project
 
-This project is created to practice and demonstrate **all major HTML and CSS concepts** used in real-world web development.  
-It is beginner-friendly and structured for easy understanding.
+This project is designed to practice and demonstrate **HTML, CSS, and SCSS (Sass)** concepts used in modern frontend development.  
+It covers everything from basic structure to responsive layouts, reusable styles, and animations.
 
 ---
 
 ## 📌 Project Overview
 
 This project includes:
-- Semantic HTML structure
+- Semantic HTML5
 - Modern CSS styling
-- Responsive layouts
-- Animations and transitions
-- Flexbox and Grid usage
-- Reusable components
+- SCSS (Sass) architecture
+- Responsive design
+- Flexbox & Grid layouts
+- Animations & transitions
+- Clean and reusable code structure
 
 ---
 
@@ -29,13 +30,13 @@ This project includes:
 - Paragraphs (`p`)
 - Line breaks (`br`)
 - Horizontal rules (`hr`)
-- Strong & emphasis (`strong`, `em`)
+- `strong`, `em`
 
 ### 3. Links & Media
 - Anchor tags (`a`)
 - Images (`img`)
 - Audio & video (`audio`, `video`)
-- Iframe (`iframe`)
+- Iframes (`iframe`)
 
 ### 4. Lists
 - Ordered lists (`ol`)
@@ -45,28 +46,17 @@ This project includes:
 ### 5. Tables
 - `table`, `tr`, `td`, `th`
 - Table captions
-- Table borders
 
 ### 6. Forms
-- Input types (`text`, `email`, `password`, `radio`, `checkbox`)
+- Inputs (`text`, `email`, `password`, `radio`, `checkbox`)
 - `textarea`
 - `select` & `option`
-- `label`
-- `button`
 - Form validation attributes
 
 ### 7. Semantic Elements
-- `header`
-- `nav`
-- `section`
-- `article`
-- `aside`
+- `header`, `nav`, `main`
+- `section`, `article`, `aside`
 - `footer`
-- `main`
-
-### 8. Inline & Block Elements
-- `div`, `span`
-- Inline vs block behavior
 
 ---
 
@@ -74,14 +64,14 @@ This project includes:
 
 ### 1. CSS Basics
 - Inline, internal & external CSS
-- CSS syntax & selectors
+- Selectors & specificity
+- Comments
 
 ### 2. Selectors
-- Universal selector (`*`)
-- Element selector
-- Class selector
-- ID selector
-- Attribute selector
+- Universal (`*`)
+- Element
+- Class & ID
+- Attribute selectors
 - Pseudo-classes (`:hover`, `:focus`)
 - Pseudo-elements (`::before`, `::after`)
 
@@ -89,35 +79,29 @@ This project includes:
 - Margin
 - Padding
 - Border
-- Content
 - `box-sizing`
 
 ### 4. Colors & Backgrounds
-- HEX, RGB, RGBA colors
+- HEX, RGB, RGBA
 - Background images
 - Gradients
 
 ### 5. Typography
-- Fonts
-- Font size & weight
-- Line height
+- Fonts & font families
+- Font size, weight & line height
 - Text alignment
-- Google Fonts
 
-### 6. Layout Techniques
+### 6. Layout Systems
 #### Flexbox
 - `display: flex`
 - `justify-content`
 - `align-items`
-- `flex-direction`
-- `flex-wrap`
 - `gap`
 
 #### Grid
 - `display: grid`
 - `grid-template-columns`
 - `grid-template-rows`
-- `gap`
 - Grid areas
 
 ### 7. Positioning
@@ -126,31 +110,22 @@ This project includes:
 - Absolute
 - Fixed
 - Sticky
-- `z-index`
 
-### 8. Display & Visibility
-- `display: block | inline | inline-block | none`
-- `visibility: hidden`
-
-### 9. Responsive Design
+### 8. Responsive Design
 - Media queries
-- Mobile-first design
-- Responsive units (`%`, `vw`, `vh`, `rem`, `em`)
+- Mobile-first approach
+- Responsive units (`%`, `rem`, `vh`, `vw`)
 
-### 10. Transitions & Animations
+### 9. Transitions & Animations
 - `transition`
 - `@keyframes`
-- Hover animations
-- Transform (`scale`, `rotate`, `translate`)
-
-### 11. Overflow & Scroll
-- `overflow: hidden | scroll | auto`
-
-### 12. CSS Variables
-- `:root`
-- Custom properties
+- `transform`
 
 ---
 
-## 📁 Folder Structure
+## 🎯 SCSS (Sass) Concepts Covered
 
+### 1. Variables
+```scss
+$primary-color: #3498db;
+$font-main: Arial, sans-serif;
