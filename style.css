@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    perspective: 900px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 5px solid black;
+}
+.box1{
+    display: grid;
+     margin: 12px;
+    
+    grid-template-columns: auto auto auto;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    margin:12px;
+    border-radius: 50%;
+    transform: rotateX(90deg);
+
+}

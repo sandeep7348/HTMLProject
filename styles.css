@@ -1,0 +1,65 @@
+html, body {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+.nav{
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+    font-weight: 300;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    cursor: pointer;
+}
+.nav h4{
+    font-weight: 300;
+
+}
+.container{
+    text-align:center;
+      background-color:  #f5f5f7;;
+     width: 100vw;
+     padding-bottom: 12px;
+     
+}
+.container h1{
+    margin:0px;
+    font-size: 48px;
+    height: 450px;
+    color: #333;
+    padding-top: 12px;
+    background-image: url("https://www.apple.com/v/home/ck/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small_2x.jpg");
+   background-size: cover;
+   background-position: center;   
+} 
+.btn1{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-bottom-left-radius:980px;
+    border-bottom-right-radius:980px;
+      border-top-left-radius:980px;
+    border-top-right-radius:980px;
+    cursor: pointer;
+    
+}
+.btn2{
+    
+    color: blue;
+    padding: 10px 20px;
+    border: none;
+     border-bottom-left-radius:980px;
+    border-bottom-right-radius:980px;
+      border-top-left-radius:980px;
+    border-top-right-radius:980px;
+    cursor: pointer;
+}
+h2{
+    color:white
+}
