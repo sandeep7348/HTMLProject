@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -10,20 +12,21 @@ body {
   width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #121212;
-  color: #333;
+  color: #fff;
 }
 
+/* FLEX MIXIN */
+/* MAIN */
 main {
   min-height: 100%;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
+  margin-right: 1.2rem;
 }
 main section {
   width: 100%;
+  background-color: #111;
   display: flex;
   flex-direction: column;
-  background-color: lighblack;
 }
 main section img {
   width: 100vw;
@@ -33,7 +36,6 @@ main section img {
 }
 main section .top {
   padding: 1.5rem;
-  font-weight: 400;
   color: white;
 }
 main section .top h4 {
@@ -53,7 +55,6 @@ main section .top button {
   width: fit-content;
   padding: 0.7rem 0.5rem;
   border: none;
-  outline: none;
   color: black;
   font-size: 1rem;
   cursor: pointer;
@@ -66,10 +67,8 @@ main section .bottom {
 }
 main section .bottom .items {
   display: flex;
-  margin: 1.5rem 0;
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  margin: 1.5rem 0;
 }
 main section .bottom .items h4 {
   font-weight: 400;
@@ -77,4 +76,6 @@ main section .bottom .items h4 {
 }
 main section .bottom .items h3 {
   text-align: center;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/* ✅ ONLY FLEX-DIRECTION CHANGE *//*# sourceMappingURL=styles.css.map */
