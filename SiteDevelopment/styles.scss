@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #333;
+}
+
+
+@mixin flex($direction: column){
+    display: flex;
+    flex-direction: $direction;
+}
+
+main {
+  min-height: 100%; // better than height: 100%
+  width: 100vw;
+  @include flex(column);
+
+  section {
+    width: 100%;
+    @include flex(column);
+    background-color: lighblack;
+    
+
+    img {
+      width: 100vw;
+      margin: 1.5rem 1rem;
+      
+      object-fit: cover;
+      
+      
+    }
+    .top{
+        padding: 1.5rem;
+        font-weight: 400;
+        color: white;
+        
+        h4{
+               opacity: 0.7;
+
+            margin-bottom: 1.5rem;
+        }
+        h1{
+            font-size: 2rem;
+            margin:1.5rem 0;
+        }
+        p{
+            opacity: 0.7;
+        }
+        button{
+            margin-top: 1.5rem;
+            width: fit-content;
+            padding: 0.7rem 0.5rem;
+            border: none;
+            outline: none;
+            color: black;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 0.3rem;
+        }
+        
+    }
+    .bottom{
+        background-color: #222;
+        padding: 1.5rem;
+        color: white;
+        
+        .items{
+            display: flex;
+            margin: 1.5rem 0;
+            @include flex(row);
+            justify-content: space-around;
+            h4{
+                font-weight: 400;
+                opacity: 0.7;
+            }
+            h3{
+                text-align: center;
+            }
+
+        }
+
+        
+    }
+    
+
+  }
+}
+
