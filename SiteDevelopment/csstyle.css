@@ -32,7 +32,6 @@ main section .top {
 main section .top .img-wrap {
   width: 100%;
   display: flex;
-  padding-right: 1.2em;
   padding-left: 1.7em;
 }
 main section .top img {
@@ -76,7 +75,7 @@ main section .bottom p {
   font-size: 20px;
   font-weight: 500;
   opacity: 0.5;
-  max-width: 100vw;
+  max-width: 90vw;
 }
 main section .bottom button {
   margin-top: 2rem;
